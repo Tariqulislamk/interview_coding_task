@@ -1,0 +1,32 @@
+@tailwind base;
+
+input, select {
+    @apply border border-gray-500 mx-1
+}
+th {
+    @apply py-3
+}
+input , select{
+    @apply w-full h-9
+}
+.radio-style {
+    @apply w-4 h-4 text-blue-600 bg-gray-100 border-gray-300  dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:bg-gray-700 dark:border-gray-600
+}
+
+.btn {
+    @apply font-bold text-xs py-1 px-4;
+  }
+  .btn-blue {
+    @apply outline-[#2E3791] outline outline-1 ;
+  }
+  .btn-blue:hover {
+    @apply bg-[#2E3791] text-white;
+  }
+  .btn-blue:focus {
+    @apply bg-[#2E3791] text-white;
+  }
+  .menu li {
+    @apply px-3 hover:bg-slate-700 rounded-sm mx-1 cursor-pointer hidden sm:block
+}
+@tailwind components;
+@tailwind utilities;
